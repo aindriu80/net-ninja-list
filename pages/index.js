@@ -1,9 +1,13 @@
 import Head from "next/head";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
     <div>
+      <Navbar />
+
       <h1>Homepage</h1>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi numquam
@@ -45,6 +49,7 @@ export default function Home() {
         perspiciatis natus? Deleniti ratione omnis, ipsam explicabo officiis
         cum.
       </p>
+      <Footer />
     </div>
   );
 }
