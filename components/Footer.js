@@ -1,8 +1,8 @@
 const Footer = () => {
   return (
-    <div>
+    <footer>
       <p>&#169; Copyright 2021 AMGE List</p>
-    </div>
+    </footer>
   );
 };
 
