@@ -10,6 +10,9 @@ body{
   max-width: 960px;
   margin: 0 auto;
 }
+a:link {
+    text-decoration: none;
+}
 
 nav{
   margin: 10px auto 80px;
@@ -35,4 +38,12 @@ footer{
   margin-top: 60px;
   color: #777;
   border-top: 1px solid #eaeaea;
+}
+
+.not-found{
+  text-align: center;
+}
+
+.not-found a{
+  color: #4979ff;
 }
