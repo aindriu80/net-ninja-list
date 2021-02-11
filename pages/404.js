@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
+import Link from "next/link";
 
 const NotFound = () => {
   const router = useRouter();
